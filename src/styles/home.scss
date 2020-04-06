@@ -1,5 +1,4 @@
-
-body{
+body {
     margin-top: 80px;
 }
 
@@ -7,17 +6,28 @@ body{
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    .card{
+    .card {
         margin-right: 10px;
         margin-bottom: 10px;
     }
 }
 
-.navbar.top-navbar{
+.navbar.top-navbar {
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100vw;
     z-index: 10;
+    opacity: .9;
 }
 
+#mundo {
+    width: 30px;
+    height: 30px;
+}
+
+#fondo {
+    height: 100%;
+    width: 100%;
+    position: static;
+}
