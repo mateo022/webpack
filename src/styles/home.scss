@@ -1,5 +1,8 @@
 body {
-    margin-top: 80px;
+    background-image: url(../media/img1.jpg);
+    background-size: cover;
+    margin: 30px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
 
 .main-container {
@@ -18,16 +21,21 @@ body {
     left: 0px;
     width: 100vw;
     z-index: 10;
-    opacity: .9;
+    color: white;
 }
 
 #mundo {
-    width: 30px;
-    height: 30px;
+    width: 17px;
+    height: 17px;
 }
 
-#fondo {
-    height: 100%;
-    width: 100%;
-    position: static;
+#air {
+    margin: 30px;
+}
+
+h1 {
+    color: inherit;
+    font-size: 1em;
+    margin: 20px;
+    padding: 20px;
 }
