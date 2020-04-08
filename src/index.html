@@ -12,7 +12,11 @@
 
     <header>
 
+
         <ul class="nav justify-content-end">
+            <div>
+                <input id="logomenu" type="image" src="../src/media/logomenu.png">
+            </div>
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
@@ -45,17 +49,33 @@
         </div>
 
     </header>
-
-    <div class="card" style="width: 19rem; height: 0rem;">
-        <h1>Reserva actividades y alojamientos únicos para tu estadía</h1>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-    </div>
-
-
+    <div id="form">
+        <form>
+            <h1>Reserva actividades y alojamientos únicos para tu estadía.</h1>
+            <div class="form-group">
+                <label for="inputAddress">Dónde</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="En cualquier lugar">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Llegada</label>
+                    <input type="date" class="form-control" id="inputEmail4">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Salida</label>
+                    <input type="date" class="form-control" id="inputPassword4">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Húespedes</label>
+                <select class="form-control" id="exampleFormControlSelect1" aria-placeholder="Huespedes">
+                  <option>Adultos</option>
+                  <option>Niños</option>
+                  <option>Bebés</option>
+                </select>
+            </div>
+            <button type="submit " class="btn btn-primary ">Buscar</button>
+        </form>
     </div>
 
 

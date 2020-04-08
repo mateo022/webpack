@@ -21,7 +21,6 @@ body {
     left: 0px;
     width: 100vw;
     z-index: 10;
-    color: white;
 }
 
 #mundo {
@@ -29,13 +28,20 @@ body {
     height: 17px;
 }
 
-#air {
-    margin: 30px;
-}
-
 h1 {
     color: inherit;
     font-size: 1em;
     margin: 20px;
     padding: 20px;
+}
+
+#logomenu {
+    margin-left: 90px;
+    padding-left: 90px;
+}
+
+#form {
+    width: 500px;
+    height: 410px;
+    background-color: white;
 }
