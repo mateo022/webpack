@@ -1,47 +1,198 @@
-body {
-    background-image: url(../media/img1.jpg);
-    background-size: cover;
-    margin: 30px;
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-}
-
-.main-container {
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    .card {
-        margin-right: 10px;
-        margin-bottom: 10px;
+    body {
+        // background-image: url(../media/img1.jpg);
+        background-size: cover;
+        margin: 30px;
+        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     }
-}
-
-.navbar.top-navbar {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    z-index: 10;
-}
-
-#mundo {
-    width: 17px;
-    height: 17px;
-}
-
-h1 {
-    color: inherit;
-    font-size: 1em;
-    margin: 20px;
-    padding: 20px;
-}
-
-#logomenu {
-    margin-left: 90px;
-    padding-left: 90px;
-}
-
-#form {
-    width: 500px;
-    height: 410px;
-    background-color: white;
-}
+    
+    a {
+        color: #040a0f;
+        text-decoration: none;
+        background-color: transparent;
+        font-size: 15px;
+    }
+    
+    a:hover {
+        color: #040a0f;
+        text-decoration: underline;
+    }
+    
+    .navbar.top-navbar {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        z-index: 10;
+    }
+    
+    #mundo {
+        width: 17px;
+        height: 17px;
+    }
+    
+    h1 {
+        color: inherit;
+        font-size: 1em;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    #logomenu {
+        text-align: left;
+    }
+    
+    #form {
+        width: 500px;
+        height: 410px;
+        background-color: white;
+    }
+    
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: rgb(14, 12, 12);
+        background-color: rgba(255, 255, 255, 0.877) !important;
+        border-radius: 20px;
+        font-size: 15px;
+        border: 3px double #f4f7f4;
+    }
+    
+    ._18yccw0 {
+        border: 1px solid #F7F7F7 !important;
+        border-radius: 12px !important;
+        background-color: rgba(255, 255, 255, 0.877) !important;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08) !important;
+        color: #222222 !important;
+        display: -webkit-inline-box !important;
+        display: -moz-inline-box !important;
+        display: -ms-inline-flexbox !important;
+        display: -webkit-inline-flex !important;
+        display: inline-flex !important;
+        width: 100% !important;
+        position: relative !important;
+    }
+    
+    ._a0duuvh {
+        display: block !important;
+        cursor: pointer !important;
+        position: relative !important;
+        z-index: 2 !important;
+        background-color: rgba(255, 255, 255, 0.877) !important;
+        transition: border-color 0.2s ease 0s !important;
+        border-width: 2px !important;
+        border-style: solid !important;
+        border-image: initial !important;
+        border-radius: 12px !important;
+        padding: 16px 22px !important;
+        border-color: rgba(175, 166, 166, 0.904) !important;
+    }
+    
+    ._9bj9d5 {
+        font-size: 10px !important;
+        line-height: 12px !important;
+        font-weight: 800 !important;
+        letter-spacing: 0.04em !important;
+        text-transform: uppercase !important;
+        padding-bottom: 4px !important;
+    }
+    
+    ._1spzot3 {
+        display: block !important;
+        border: 0px !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        width: 100% !important;
+        background: none !important;
+        font-size: 14px !important;
+        line-height: 18px !important;
+        font-weight: 600 !important;
+        color: #ada2a2 !important;
+        text-overflow: ellipsis !important;
+    }
+    
+    ._qiizeo {
+        margin: -1px !important;
+        position: relative !important;
+        width: 380px;
+        display: block;
+    }
+    
+    ._qiizeo:hover {
+        color: rgb(12, 10, 10) !important;
+        box-shadow: 0 4px 16px rgb(184, 190, 190);
+        transition: all 0.2s ease;
+    }
+    
+    ._9bj9d5 {
+        font-size: 10px !important;
+        line-height: 12px !important;
+        font-weight: 800 !important;
+        letter-spacing: 0.04em !important;
+        text-transform: uppercase !important;
+        padding-bottom: 4px !important;
+    }
+    
+    ._4poulv {
+        font-size: 14px !important;
+        line-height: 18px !important;
+        font-weight: 400 !important;
+        color: #222222 !important;
+        opacity: 0.7 !important;
+    }
+    
+    ._1pgkncf {
+        -ms-grid-row-align: center !important;
+        -ms-flex-item-align: center !important;
+        -webkit-align-self: center !important;
+        align-self: center !important;
+        border-right: 1px solid #DDDDDD !important;
+        -webkit-flex: 0 1 0px !important;
+        -ms-flex: 0 1 0px !important;
+        flex: 0 1 0px !important;
+        height: 44px !important;
+    }
+    
+    ._esmga25 {
+        border-color: rgba(250, 244, 244, 0.829) !important;
+        background-color: rgba(255, 255, 255, 0.877) !important;
+        color: inherit !important;
+        cursor: pointer !important;
+        margin: 3px !important;
+        padding: 18px !important;
+        text-align: left !important;
+        text-decoration: none !important;
+        width: 100% !important;
+        border-radius: 12px !important;
+        border: 6px double #f4f7f4;
+    }
+    
+    ._h6px0p {
+        margin-left: 8px !important;
+        padding: 11px !important;
+        width: 60px !important;
+    }
+    
+    ._jpp2dbp {
+        cursor: pointer !important;
+        display: inline-block !important;
+        margin: 0px !important;
+        position: relative !important;
+        text-align: left !important;
+        text-decoration: none !important;
+        border-color: black !important;
+        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
+        font-size: 14px !important;
+        line-height: 18px !important;
+        font-weight: 600 !important;
+        border-radius: 8px !important;
+        border-width: 1px !important;
+        border-style: solid !important;
+        outline: none !important;
+        padding-top: 14px !important;
+        padding-bottom: 14px !important;
+        padding-left: 28px !important;
+        padding-right: 24px !important;
+        background: -webkit-linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%) !important;
+        background: -moz-linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%) !important;
+        background: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%) !important;
+        color: #FFFFFF !important;
+    }
