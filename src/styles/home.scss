@@ -17,24 +17,22 @@
         text-decoration: underline;
     }
     
-    .navbar.top-navbar {
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        width: 100vw;
-        z-index: 10;
-    }
-    
     #mundo {
         width: 17px;
         height: 17px;
     }
     
     h1 {
-        color: inherit;
-        font-size: 1em;
+        color: black;
         margin: 20px;
         padding: 20px;
+        font-size: 40px;
+        text-align: left;
+        justify-content: left;
+    }
+    
+    .card {
+        display: inline-block;
     }
     
     #logomenu {
@@ -50,56 +48,26 @@
     .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
         color: rgb(14, 12, 12);
-        background-color: rgba(255, 255, 255, 0.877) !important;
+        background-color: rgba(255, 255, 255, 0.877);
         border-radius: 20px;
         font-size: 15px;
         border: 3px double #f4f7f4;
     }
     
-    ._18yccw0 {
-        border: 1px solid #F7F7F7 !important;
-        border-radius: 12px !important;
-        background-color: rgba(255, 255, 255, 0.877) !important;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08) !important;
-        color: #222222 !important;
-        display: -webkit-inline-box !important;
-        display: -moz-inline-box !important;
-        display: -ms-inline-flexbox !important;
-        display: -webkit-inline-flex !important;
-        display: inline-flex !important;
-        width: 100% !important;
-        position: relative !important;
-    }
-    
-    ._a0duuvh {
-        display: block !important;
-        cursor: pointer !important;
-        position: relative !important;
-        z-index: 2 !important;
-        background-color: rgba(255, 255, 255, 0.877) !important;
-        transition: border-color 0.2s ease 0s !important;
-        border-width: 2px !important;
-        border-style: solid !important;
-        border-image: initial !important;
-        border-radius: 12px !important;
-        padding: 16px 22px !important;
-        border-color: rgba(175, 166, 166, 0.904) !important;
-    }
-    
     ._9bj9d5 {
-        font-size: 10px !important;
-        line-height: 12px !important;
-        font-weight: 800 !important;
-        letter-spacing: 0.04em !important;
-        text-transform: uppercase !important;
-        padding-bottom: 4px !important;
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding-bottom: 4px;
     }
     
     ._1spzot3 {
-        display: block !important;
-        border: 0px !important;
-        margin: 0px !important;
-        padding: 0px !important;
+        display: block;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
         width: 100% !important;
         background: none !important;
         font-size: 14px !important;
@@ -144,55 +112,64 @@
         -ms-flex-item-align: center !important;
         -webkit-align-self: center !important;
         align-self: center !important;
-        border-right: 1px solid #DDDDDD !important;
-        -webkit-flex: 0 1 0px !important;
-        -ms-flex: 0 1 0px !important;
-        flex: 0 1 0px !important;
-        height: 44px !important;
+        border-right: 1px solid #DDDDDD;
+        -webkit-flex: 0 1 0px;
+        -ms-flex: 0 1 0px;
+        flex: 0 1 0px;
+        height: 44px t;
     }
     
     ._esmga25 {
-        border-color: rgba(250, 244, 244, 0.829) !important;
-        background-color: rgba(255, 255, 255, 0.877) !important;
-        color: inherit !important;
-        cursor: pointer !important;
-        margin: 3px !important;
-        padding: 18px !important;
-        text-align: left !important;
-        text-decoration: none !important;
-        width: 100% !important;
-        border-radius: 12px !important;
+        border-color: rgba(250, 244, 244, 0.829);
+        background-color: rgba(255, 255, 255, 0.877);
+        color: inherit;
+        cursor: pointer;
+        margin: 3px;
+        padding: 18px;
+        text-align: left;
+        text-decoration: none;
+        width: 100%;
+        border-radius: 12px t;
         border: 6px double #f4f7f4;
     }
     
     ._h6px0p {
-        margin-left: 8px !important;
-        padding: 11px !important;
-        width: 60px !important;
+        margin-left: 12px;
+        padding: 15px;
+        width: 80px;
+    }
+    
+    ._163rr5i {
+        position: absolute !important;
+        top: 0px !important;
+        left: 0px !important;
+        right: 0px !important;
+        bottom: 0px !important;
+        width: 100% !important;
+        height: 100% !important;
+        overflow: hidden !important;
+        border-radius: 8px !important;
     }
     
     ._jpp2dbp {
-        cursor: pointer !important;
-        display: inline-block !important;
-        margin: 0px !important;
-        position: relative !important;
-        text-align: left !important;
-        text-decoration: none !important;
-        border-color: black !important;
-        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif !important;
-        font-size: 14px !important;
-        line-height: 18px !important;
-        font-weight: 600 !important;
-        border-radius: 8px !important;
-        border-width: 1px !important;
-        border-style: solid !important;
-        outline: none !important;
-        padding-top: 14px !important;
-        padding-bottom: 14px !important;
-        padding-left: 28px !important;
-        padding-right: 24px !important;
-        background: -webkit-linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%) !important;
-        background: -moz-linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%) !important;
-        background: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%) !important;
-        color: #FFFFFF !important;
+        display: inline-block;
+        margin: 0px;
+        position: relative;
+        text-align: left;
+        text-decoration: none;
+        border-color: black;
+        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+        border-radius: 8px;
+        border-width: 1px;
+        border-style: solid;
+        outline: none;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 28px;
+        padding-right: 24px;
+        background: #E01760;
+        color: #FFFFFF;
     }
