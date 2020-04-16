@@ -1,5 +1,4 @@
     body {
-        // background-image: url(../media/img1.jpg);
         background-size: cover;
         margin: 30px;
         font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
@@ -55,50 +54,50 @@
         border: 0px;
         margin: 0px;
         padding: 0px;
-        width: 100% !important;
-        background: none !important;
-        font-size: 14px !important;
-        line-height: 18px !important;
-        font-weight: 600 !important;
-        color: #ada2a2 !important;
-        text-overflow: ellipsis !important;
+        width: 100%;
+        background: none;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+        color: #ada2a2;
+        text-overflow: ellipsis;
     }
     
     ._qiizeo {
-        margin: -1px !important;
-        position: relative !important;
+        margin: -1px;
+        position: relative;
         width: 380px;
         display: block;
     }
     
     ._qiizeo:hover {
-        color: rgb(12, 10, 10) !important;
+        color: rgb(12, 10, 10);
         box-shadow: 0 4px 16px rgb(184, 190, 190);
         transition: all 0.2s ease;
     }
     
     ._9bj9d5 {
-        font-size: 10px !important;
-        line-height: 12px !important;
-        font-weight: 800 !important;
-        letter-spacing: 0.04em !important;
-        text-transform: uppercase !important;
-        padding-bottom: 4px !important;
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        padding-bottom: 4px;
     }
     
     ._4poulv {
-        font-size: 14px !important;
-        line-height: 18px !important;
-        font-weight: 400 !important;
-        color: #222222 !important;
-        opacity: 0.7 !important;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 400;
+        color: #222222;
+        opacity: 0.7;
     }
     
     ._1pgkncf {
-        -ms-grid-row-align: center !important;
-        -ms-flex-item-align: center !important;
-        -webkit-align-self: center !important;
-        align-self: center !important;
+        -ms-grid-row-align: center;
+        -ms-flex-item-align: center;
+        -webkit-align-self: center;
+        align-self: center;
         border-right: 1px solid #DDDDDD;
         -webkit-flex: 0 1 0px;
         -ms-flex: 0 1 0px;
@@ -110,13 +109,12 @@
         border-color: rgba(250, 244, 244, 0.829);
         background-color: rgba(255, 255, 255, 0.877);
         color: inherit;
-        cursor: pointer;
         margin: 3px;
         padding: 18px;
         text-align: left;
         text-decoration: none;
         width: 100%;
-        border-radius: 12px t;
+        border-radius: 12px;
         border: 6px double #f4f7f4;
     }
     
@@ -127,15 +125,15 @@
     }
     
     ._163rr5i {
-        position: absolute !important;
-        top: 0px !important;
-        left: 0px !important;
-        right: 0px !important;
-        bottom: 0px !important;
-        width: 100% !important;
-        height: 100% !important;
-        overflow: hidden !important;
-        border-radius: 8px !important;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 8px;
     }
     
     ._jpp2dbp {
@@ -218,16 +216,118 @@
     
     .div-conteiner {
         position: relative;
-        padding: 0.75rem 1.25rem;
+        padding: 2.75rem 1.25rem;
     }
     
     .text2 {
         color: white;
+        font-size: 30px;
+        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    }
+    
+    .text3 {
+        color: white;
+        font-size: 14px;
+        width: 550px;
+        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+        display: inline-block;
     }
     
     .btn-secondary {
         color: #fff;
         background-color: black;
         border-color: #6c757d;
-        justify-content: right;
+    }
+    
+    .div-btn {
+        display: inline-block;
+        border: none;
+    }
+    
+    .card1 {
+        position: relative;
+        display: inline-block;
+        flex-direction: column;
+        word-wrap: break-word;
+        background-color: black;
+        background-clip: border-box;
+        border: 3px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.90rem;
+        margin: 20px;
+        width: 100px;
+    }
+    
+    .card-body1 {
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 1.25rem;
+        background-color: #222222;
+    }
+    
+    .card-title1 {
+        color: white;
+        font-size: 16px;
+    }
+    
+    .btncard {
+        border: none;
+        background: none;
+    }
+    
+    .card2 {
+        position: relative;
+        display: inline-block;
+        flex-direction: column;
+        word-wrap: break-word;
+        background-color: black;
+        background-clip: border-box;
+        border: 3px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.90rem;
+        margin: 20px;
+        width: 100px;
+    }
+    
+    .card-body2 {
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 1.25rem;
+        background-color: #222222;
+    }
+    
+    .card-title2 {
+        color: white;
+        font-size: 16px;
+    }
+    
+    .text4 {
+        padding-right: 50px;
+        margin-top: 50px;
+        margin-left: 40px;
+        color: black;
+        font-size: 16px;
+        width: 550px;
+        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+        display: inline-block;
+    }
+    
+    .text5 {
+        color: black;
+        font-size: 19px;
+        width: 550px;
+        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+        display: inline-block;
+    }
+    
+    .btnpar {
+        color: #040a0f;
+        text-decoration: none;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+    
+    .ptext {
+        border-bottom: solid 1px black;
+        display: flex;
+        position: relative;
+        box-sizing: border-box;
     }
