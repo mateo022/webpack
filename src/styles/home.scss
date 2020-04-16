@@ -189,3 +189,45 @@
     .card-title {
         color: #222222;
     }
+    
+    .alert {
+        margin-top: -30px;
+        position: relative;
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+    }
+    
+    .alert-primary {
+        color: #222222;
+        background-color: #F7F7F7;
+        border-color: #F7F7F7;
+    }
+    
+    .btnalert {
+        display: inline-block;
+        border: none;
+        color: #080808;
+        text-decoration: underline;
+        background-color: #F7F7F7;
+    }
+    
+    .fondo {
+        background-color: black;
+    }
+    
+    .div-conteiner {
+        position: relative;
+        padding: 0.75rem 1.25rem;
+    }
+    
+    .text2 {
+        color: white;
+    }
+    
+    .btn-secondary {
+        color: #fff;
+        background-color: black;
+        border-color: #6c757d;
+        justify-content: right;
+    }
